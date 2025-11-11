@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Streams</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="Java.js"></script>
+    </head>
+        <header>
+            <img src="Images/logo-blueSky.svg" alt="Blue Sky Logo">
+            <div display="flex-container" style="height: 100%;background-color: lightblue;">
+                <div class= "navLinks"><center><nav>     
+                    <a href="Index.html">Start here</a>
+                    <a href= "LoggingOn.html">Logging On</a>
+                    <A href="DataStreams.html">Data Streams</A>
+                    <a href="searchingForRecords.html">Searching for Records</a>
+                    <a href="ProgressOverview.html">Progress Overview</a>
+                    <a href="CreatingProgress.html">Creating Progress</a>
+                    <a href="SharingProgress.html">Sharing Progress</a>
+                    <a href="AttachingDocs.html">Attaching Docs</a>
+                    <a href="UsingOMG.HTML">Using OMG</a>
+                    <a href="SendingInfo.html">Sending Info</a>
+                    <a href="TheEnd.html">The End</a><br></center>
+                </nav>
+                <div class="furtherResources"   display =   "flex">
+                        <a href =   "FurtherResources.html" style="color: black;">Further Resources</a>
+                        <a href="GuidanceDocs.html" style="color: black;">Guidance Documents</a>
+                        <a href="ChangeLog.html" style="color: black;">Change Log</a>
+                </div>
+            </div>
+        </header> 
+          <body bgcolor=#2ab7d5> 
+            <div class="IntroBox">
+                <center><h1>Data Streams</h1></center>
+            </div>
+           <div class="InstructionBox"> 
+                 <center>Watch the video below. <br> </center></div>
+                 <center>
+                    <video id="video1"
+                    controls
+                    preload="auto"
+                    onplay="goToStart()"
+                    src="Videos/Whose data is it anyway_.mp4#t=5" 
+                    type="video/mp4">
+                    </video>
+                 </center>  
+            <div class="InstructionBox"> 
+                 <center>
+                    If a Carer discovers that their Young Person is pregnant, <br>
+                    would you record this information on both the family and Children's progress?
+                   
+                 </center> 
+                 
+            </div>
+            <div> <Center>
+                <button 
+                    type="button" 
+                    Style="color: black;
+                    font-weight: bold;
+                    font-size:medium;
+                    background-color: greenyellow;
+                    border-radius: 5px; 
+                    margin: 1em;
+                    padding: 10px 24px;"
+                    onclick="alert('Incorrect! The information would be recorded on just the Young persons record. Unless the father is a member of the carers family. In which case you should discuss with your manager.')">Both Family &  <br>Young person's Records.
+                </button>
+                <button 
+                    type="button" 
+                    style="color: white;
+                    font-weight: bold;
+                    font-size:medium;
+                    background-color: purple;
+                    border-radius: 5px; 
+                    margin: 1em;
+                    padding: 10px 24px;"
+                    onclick="alert('That is right! The data belongs to the Young person only. You may write on the Family record how you are supporting them with the emotional or practical impact of the pregnancy, but most of the information belongs just to the Young Person')">Young Person's <br>Record.
+                </button>
+            </Center></div>
+            <div id="box-NextPage"
+            style="margin-top: 2em; height:7em;">
+            <center>
+                <a href="searchingForRecords.html">
+                    <button 
+                    type="button" 
+                    id="btn-NextPage">
+                    Next Page
+                    </button>
+                </a>
+            </center>
+        </div>
+        <img id="SULogo"src="Images/CHARMS Super-User Logo.png"
+          </body>
+</html>
